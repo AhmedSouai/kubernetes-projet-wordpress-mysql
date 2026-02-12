@@ -44,12 +44,13 @@ L’objectif principal est de comprendre :
 
 ## Prérequis
 
-- [Minikube](https://minikube.sigs.k8s.io/docs/)
+-[kubernetes](https://kubernetes.io/docs/home/)
 - [kubectl](https://kubernetes.io/docs/tasks/tools/)
 - [Docker](https://www.docker.com/)
 
 ---
 
+Création du namespace
 
 ```bash
 
@@ -75,7 +76,7 @@ Vérifier que WordPress est accessible via NodePort :
 ```bash
 kubectl get svc -n wordpress
 ```
-# puis accéder à http://<node-ip>:<nodeport>
+# puis accéder à http://IP-NODE:NODE-PORT(30008)
 
 ## A venir
 Ajouter ELK Stack pour la collecte de logs et le monitoring.
