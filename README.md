@@ -18,11 +18,6 @@ L’objectif principal est de comprendre :
 <img width="1201" height="601" alt="Diagramme sans nom drawio" src="https://github.com/user-attachments/assets/03ef7e3e-895b-42d7-82b5-eb4fae56c461" />
 
 
-
-- **WordPress** : application web qui se connecte à MySQL.
-- **MySQL** : base de données relationnelle pour stocker les contenus WordPress.
-- **Secrets Kubernetes** : stockage sécurisé des mots de passe.
-
 ---
 
 
